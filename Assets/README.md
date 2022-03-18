@@ -14,4 +14,5 @@ The final text was outlined  for the action to click and then write the password
 ![ScreenShot](_Users_jannabencriscutto_Desktop_Homework-Assignments_Jenn-Password-Generator_index.html.png)
 
 ## Links
-will be with final push.
+[Password Generator Links] (https://jpcreativeworks.github.io/Jenn-Password-Generator/)
+[GitHub Link] (https://github.com/jpcreativeworks/Jenn-Password-Generator.git)

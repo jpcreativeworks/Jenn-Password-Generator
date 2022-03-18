@@ -25,9 +25,9 @@ function generatePassword(){
     return "Please enter your request"
    };
 
-   let userRequestUpper = confirm("Do you linke Uppercase letters in your password?")
+   let userRequestUpper = confirm("Do you like Uppercase letters in your password?")
    let userRequestSpecial = confirm("Do you want special characters?");
-   let userRequestNumbers = confirm("do you want some numbers, too?")
+   let userRequestNumbers = confirm("Do you want some numbers, too?")
    let userRequestLower = confirm ("How about lowercase letters?")
 
    if(!userRequestLower && !userRequestUpper && !userRequestNumbers && !userRequestSpecial){
