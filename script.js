@@ -24,6 +24,31 @@ function generatePassword(){
     
     return "Please enter your request"
    };
+
+   let userRequestUpper = confirm("Do you linke Uppercase letters in your password?")
+   let userRequestSpecial = confirm("Do you want special characters?");
+   let userRequestNumbers = confirm("do you want some numbers, too?")
+   let userRequestLower = confirm ("How about lowercase letters?")
+
+   if(!userRequestLower && !userRequestUpper && !userRequestNumbers && !userRequestSpecial){
+     return "Must choose one, please"
+   };
+
+   let validCharacters = []
+     if (userRequestLower ){
+       validCharacters = validCharacters.concat(lowerKeyChoice)
+     }
+     if (userRequestUpper ){
+      validCharacters = validCharacters.concat(upperKeyChoice)
+    }
+    if (userRequestNumbers ){
+      validCharacters = validCharacters.concat(allNumbers)
+      
+    }
+    if (userRequestSpecial ){
+      validCharacters = validCharacters.concat(shftCharacters)
+    }
+console.log(validCharacters)
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
