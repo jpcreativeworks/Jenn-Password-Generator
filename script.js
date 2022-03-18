@@ -49,9 +49,9 @@ function generatePassword(){
       validCharacters = validCharacters.concat(shftCharacters)
     }
 console.log(validCharacters)
-var password = ""
+let password = ""
 for(let i=1;i<=passwordLength;i++){
-  var randomNumber = Math.floor(Math.random() * validCharacters.length);
+  let randomNumber = Math.floor(Math.random() * validCharacters.length);
   password += validCharacters[randomNumber]
 }
 return password;
